@@ -27,13 +27,9 @@ h6 {
 	
 	background-color:white;
     border-bottom-color:blue;
-	transition:all 3s linear;
 	animation-name:border-transition;
 	animation-duration:3s;
 	animation-iteration-count:infinite;
-}
-.rj:hover{
-	border-bottom-width:2px;
 }
 
 
