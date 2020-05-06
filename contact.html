@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Welcome | E - Store </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet"  type="text/css" href="css/style.css">
+</head>
+
+<body style="padding-top:80px;">
+
+<!--Modal Starts-->
+ <div class="modal fade" id="myModal" tabindex="-1" role="dialog"     aria-labelledby="myModalLabel" aria-hidden="true">    
+     <div class="modal-dialog">       
+          <div class="modal-content">          
+              <div class="modal-header">             
+                  <button type="button" class="close"   data-dismiss="modal" aria-hidden="true">    &times;    </button>    
+                       <h4 class="modal-title" id="myModalLabel">   LOGIN </h4>      
+			  </div>         
+                 <div class="modal-body">                  
+                     <h6> Don't have an account? <a href="signup.html"> Register </a> <br> <br> 
+                       <form>
+		         <div class="form-group">
+		          <input type="email" name="email" class="form-control" placeholder="Email" required>
+                     </div>
+		  
+		             <div class="form-group">
+		              <input type="password" name="password" class="form-control" placeholder="Password" required>
+                     </div>
+                    <a href="#"><button type="button" class="btn btn-primary">    Login </button> </a>
+			          </form>
+                       <br> 
+                    <a href="#"> Forgot Password ? </a>
+                  </div>
+          </div><!-- /.modal-content --> 
+      </div><!-- /.modal -->
+</div>
+<!--Modal Close-->
+
+<!--Navbar Starts-->
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+<div class="navbar-header">
+
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<span class="icon-bar"> </span>
+<span class="icon-bar"> </span>
+<span class="icon-bar"> </span>
+</button>
+
+<a href="index.html" class="navbar-brand"> E- Store </a>
+</div>
+
+<div class="collapse navbar-collapse" id="myNavbar">
+<ul class="nav navbar-nav navbar-right">
+<li> <a href="signup.html"><span class="glyphicon glyphicon-user"> </span> Sign Up </a> </li>
+<li> <a href="#" data-toggle="modal" data-target="#myModal"> <span class="glyphicon glyphicon-log-in"> </span> Login </a> </li>
+<li> <a href="about.html"> <span class="glyphicon glyphicon-tasks"> </span> About Us</a> </li>
+<li> <a href="contact.html"> <span class="glyphicon glyphicon-phone"> </span> Contact Us </a> </li>
+</ul>
+</div>
+
+</div>
+</nav>
+<div id="content" class="container-fluid">
+
+<div class="container">
+
+<div class="row">
+<div class=" col-sm-8 col-xs-12">
+<div class="caption rash5">
+<h2 class="rash7"> LIVE SUPPORT </h2>
+<h4 class="rash6"> 24 hours | 7 days a week | 365 days a year Live Technical Support </h4>
+
+
+<p> It is a long established fact that a reader will be distracted by the readable content of the page when looking at its layout 
+The point of using lorem Ipsum is that it has more-or-less distribution of the letters.There are many variations of passages of lorem Ipsum 
+available ,but the majority have suffered alteration in some form,bt injected humour,or randomised words which don't look even slightly
+believable.
+</p>
+</div>
+</div>
+
+
+<div class="  col-sm-3 col-sm-offset-1 col-xs-12" >
+<img src="img/contact.png" class="img-responsive">
+</div>
+
+</div>
+
+<div class="row">
+<div class="col-lg-8" >
+<form>
+<h2> CONTACT US </h2>
+
+<div class="form-group">
+<label id="name"> NAME </label> 
+<input type="text" name="name" class="form-control">
+</div>
+
+<div class="form-group">
+<label id="email"> EMAIL </label> 
+<input type="email" name="email" class="form-control" >
+</div>
+
+<div class="form-group">
+<label id="message"> MESSAGE: </label> 
+<input type="textarea" name="message" class="form-control rash8">
+</div>
+
+<button type="button" class="btn btn-primary"> Submit </button>
+</form>
+</div>
+
+<div class="col-lg-4 ">
+<address class=" lead rash9"> <h3> Company Information : </h3>
+500 lorem lpsum Dolor Sit, <br>
+22-56-2-9 Sit Amet,Lorem, <br>
+USA <br>
+Phone: (00) 222 666 444 <br>
+Fax:   (000) 000 00 0 <br>
+Email: info@mycompany.com  <br>
+Follow on: Twitter , Facebook
+</address>
+
+
+</div>
+
+</div>
+
+
+
+</div>
+</div>
+
+
+
+
+<footer>
+<div class="container">
+  <div class="row">
+  <div class="col-xs-4">
+  <h3>Information</h3>
+  
+  <p><a href="about.html" class="text-color"> About Us </a><p>
+  <p><a href="contact.html" class="text-color">Contact Us </a></p>
+  </div>
+  
+   <div class="col-xs-4">
+  <h3>My Account</h3>
+  
+  <a href="#" class="text-color"> <p>Login </p></a>
+  <p><a href="signup.html" class="text-color">Signup </a></p>
+  </div>
+  
+   <div class="col-xs-4">
+  <h3>Contact Us</h3>
+  
+  <p> Contact: +91-123-000000</p>
+  </div>
+  
+  </div>
+  </div>
+</footer>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
